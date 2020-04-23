@@ -1,0 +1,41 @@
+/**
+* @file: CSS Matrix
+* @version: 1.0.0
+* @theme: Classic
+*/
+
+/* wpForo Dynamic CSS Document */
+/* forum background color */
+#wpforo-wrap {
+    background-color: #f5efe0;
+    margin: auto;
+}
+
+/*  color of forum breadcrumb arrow  */
+#wpforo-wrap .wpf-breadcrumb div.active {
+    background: #f5f5f5 !important;
+	color: #4a8eb3 !important;
+}
+
+#wpforo-wrap .wpfl-1 .wpforo-category {
+    background-color: rgb(87,77,158) !important;
+    border-bottom: #cccccc 1px solid !important;
+}
+
+.social-icons a, #site-footer button:not(.toggle), #site-footer .button, #site-footer .faux-button, #site-footer .wp-block-button__link, #site-footer .wp-block-file__button, #site-footer input[type="button"], #site-footer input[type="reset"], #site-footer input[type="submit"] {
+    background-color: rgb(240,81,89) !important;
+}
+
+div.wpforo-profile-head-bg {
+	background-image: none !important;
+}
+
+/*
+div.profile-stat-data {
+	display: none;
+}
+*/
+
+.wpf-profile-info-wrap {
+	padding-bottom: 20px !important;
+}

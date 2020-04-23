@@ -1,0 +1,223 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Description:  Twenty Twenty Child Theme
+ Author:       Detroit Community Technology Project
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  twentytwentychild
+*/
+
+
+@font-face {
+	font-family: "FuturaLight";
+	src: url(fonts/Futura.ttf);
+}
+
+.entry-content p, .entry-content ol, .entry-content ul, .entry-content dl, .entry-content dt, .entry-content cite, .entry-content figcaption, .entry-content .wp-caption-text {
+    font-family: "FuturaLight", Verdana, sans-serif;
+    color: #303030;
+}
+
+.widget_text p, .widget_text ol, .widget_text ul, .widget_text dl, .widget_text dt, .widget-content .rssSummary {
+	font-family: "FuturaLight", Verdana, sans-serif;
+}
+
+p.powered-by-wordpress {
+	display: none;
+}
+
+body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a {
+	color: rgb(35, 120, 159) !important;
+}
+
+.wp-block-button__link {
+	color: #fff;
+}
+
+.social-icons a, #site-footer button:not(.toggle), #site-footer .button, #site-footer .faux-button, #site-footer .wp-block-button__link, #site-footer .wp-block-file__button, #site-footer input[type="button"], #site-footer input[type="reset"], #site-footer input[type="submit"] {
+    background-color: rgb(240,81,89) !important;
+}
+
+.entry-content h2 {
+	margin-left: 4rem;
+}
+/* hamburger menu dot colors */
+.header-inner .toggle path {
+    fill: rgb(240,81,89);
+}
+
+h3, .heading-size-3 {
+    font-size: 3.2rem;
+    color: #404040;
+}
+
+div.wp-block-columns h3 a {
+	text-decoration: none !important;
+	color: #404040 !important;
+}
+
+div.wp-block-columns h3 a:hover {
+	color: #d50139 !important;
+}
+
+div.wp-block-columns .heading-size-3 a {
+	text-decoration: none;
+	color: #404040;
+}
+
+.entry-content div.wp-block-column figure.alignfull {
+    margin-bottom: 0rem;
+}
+
+@media ( min-width: 700px ) {
+	.wp-block-column .wp-block-image:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.aligncenter) {
+		margin-bottom: 0rem;
+		margin-top: 0rem;
+	}
+
+	.wp-block-group:not(.has-background):not(.alignwide):not(.alignfull) {
+	margin-top: 0rem;
+	}
+}
+
+.wp-block-group:not(.has-background):not(.alignwide):not(.alignfull) {
+	margin-top: 0rem;
+}
+
+.entry-content > .alignwide {
+	    max-width: 105rem;
+	}
+
+@media ( min-width: 1280px ) {
+	.entry-content > .alignwide {
+	    max-width: 105rem;
+	}
+}
+
+
+/*        COVID-19 RESOURCE PAGE          */
+#post-2 h3 {
+	margin-top: 1.2rem;
+	text-align: center;
+	color: #404040;
+}
+
+
+/*        FORUM          */
+
+/* forum background color */
+.entry-content #wpforo-wrap {
+    background-color: #f5efe0;
+    margin: auto;
+}
+
+#wpforo-wrap a {
+	font-weight: bold !important;
+	font-size: 1.2em !important;
+}
+
+#wpforo-wrap .wpfl-1 .cat-title {
+    font-size: 1.3em !important;
+}
+
+div.wpfl-1 {
+	margin-top: 15px !important;
+}
+
+p.wpforo-forum-description {
+	font-size: 1.1em;
+}
+
+#wpforo-wrap .wpfl-1 .wpforo-last-topics-list {
+	background-color: rgba(255,255,255,.8) !important;
+}
+
+/*  color of forum breadcrumb arrow  */
+#wpforo-wrap .wpf-breadcrumb div.active {
+    background: transparent !important;
+	color: #4a8eb3 !important;
+	font-weight: 600;
+}
+
+.entry-content #wpforo-wrap .wpf-breadcrumb div.active:after {
+	background: transparent !important;
+}
+
+.entry-content #wpforo-wrap .wpf-breadcrumb div:after {
+	background: transparent !important;
+}
+
+#wpforo-wrap .wpf-breadcrumb {
+    background: transparent !important;
+	color: #4a8eb3 !important;
+}
+
+#wpforo-wrap .wpfl-1 .wpforo-category {
+    background-color: rgb(87,77,158) !important;
+    border-bottom: #cccccc 1px solid !important;
+}
+
+.social-icons a, #site-footer button:not(.toggle), #site-footer .button, #site-footer .faux-button, #site-footer .wp-block-button__link, #site-footer .wp-block-file__button, #site-footer input[type="button"], #site-footer input[type="reset"], #site-footer input[type="submit"] {
+    background-color: rgb(240,81,89) !important;
+}
+
+div.wpforo-profile-head-bg {
+	background-image: none !important;
+}
+
+.entry-content #wpforo-wrap {
+	background-color: transparent;
+}
+
+.wpfcl-5 {
+	color: #4a8eb3 !important;
+}
+
+/*
+div.profile-stat-data {
+	display: none;
+}
+*/
+
+.wpf-profile-info-wrap {
+	padding-bottom: 20px !important;
+}
+
+/*        GALLERY          */
+
+div.gallery-icon img {
+	margin: auto;
+}
+
+.gallery-caption h2 {
+	font-size: 2.3rem;
+	margin-bottom: 10px;
+	margin-left: 0;
+	margin-top: 2rem;
+}
+
+.gallery-caption h3 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+	margin-left: 0;
+	margin-top: 1.9rem;
+	color: #404040;
+}
+
+.gallery-caption h4 {
+	font-size: 1.7rem;
+	margin-bottom: 10px;
+	margin-left: 0;
+	margin-top: 1.8rem;
+	color: #404040;
+}
+
+.gallery-caption p {
+	font-size: 1.9rem;
+}
+
+figcaption {
+	text-align: left;
+}
